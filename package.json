@@ -25,5 +25,6 @@
   "bugs": {
     "url": "https://github.com/ff2005/react-native-template-ff2005/issues"
   },
-  "homepage": "https://github.com/ff2005/react-native-template-ff2005#readme"
+  "homepage": "https://github.com/ff2005/react-native-template-ff2005#readme",
+  "main": "template.config.js"
 }
