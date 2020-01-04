@@ -1,5 +1,5 @@
 {
-  "name": "react-native-template-ff2005",
+  "name": "react-native-template-iso-starter",
   "version": "0.0.1",
   "description": "React Native template.",
   "scripts": {
@@ -7,7 +7,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ff2005/react-native-template-ff2005.git"
+    "url": "git+https://github.com/ff2005/react-native-template-iso-starter.git"
   },
   "keywords": [
     "react-native",
@@ -19,7 +19,7 @@
   "author": "FF2005",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ff2005/react-native-template-ff2005/issues"
+    "url": "https://github.com/ff2005/react-native-template-iso-starter/issues"
   },
-  "homepage": "https://github.com/ff2005/react-native-template-ff2005#readme"
+  "homepage": "https://github.com/ff2005/react-native-template-iso-starter#readme"
 }
