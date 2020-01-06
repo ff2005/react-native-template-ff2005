@@ -14,7 +14,8 @@
 
 - Elegant usage directly within the [React Native CLI](https://github.com/react-native-community/cli).
 - Consistent with the default React Native template.
-- Additional dependencies: redux, react-navigation.
+- Additional dependencies: typescript, redux, react-navigation.
+- Also: husky, lint-staged, babel-plugin-transform-remove-console.
 
 ## Usage
 
@@ -43,9 +44,26 @@ npx react-native init MyApp --template react-native-template-iso-starter
 
 ## Notes
 
-### Legacy CLI
+### React Native Legacy CLI
 There seems to be quite some confusion about the legacy CLI. This template only works with the new CLI. Make sure you have uninstalled the legacy `react-native-cli` first (`npm uninstall -g react-native-cli`). If you wish, you can also install the new CLI globally (`npm i -g @react-native-community/cli` or `yarn global add @react-native-community/cli`).
 Further information can be found here: https://github.com/react-native-community/cli#about
+
+### Libs Links
+- [react](https://reactjs.org)
+- [react-native](https://facebook.github.io/react-native/)
+- [typescript](https://www.typescriptlang.org)
+- [redux](https://redux.js.org)
+- [react-navigation](https://reactnavigation.org)
+- [husky](https://github.com/typicode/husky)
+- [lint-staged](https://github.com/okonet/lint-staged)
+- [babel-plugin-transform-remove-console](https://github.com/babel/minify/tree/master/packages/babel-plugin-transform-remove-console)
+
+### Useful Links
+- [Introducing Hooks](https://reactjs.org/docs/hooks-intro.html)
+- [Hooks at a Glance](https://reactjs.org/docs/hooks-overview.html)
+- [Hooks API Reference](https://reactjs.org/docs/hooks-reference.html)
+- [React Navigation - Stack](https://reactnavigation.org/docs/en/stack-navigator.html)
+- [Publishing to Google Play Store](https://facebook.github.io/react-native/docs/signed-apk-android)
 
 ## Contributing
 
