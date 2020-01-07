@@ -3,7 +3,8 @@
   "version": "0.0.4",
   "description": "React Native template.",
   "scripts": {
-    "postversion": "git push --tags && git push && npm publish"
+    "postversion": "git push --tags && git push && npm publish",
+    "updatebase": "git fetch git@github.com:react-native-community/react-native-template-typescript.git && git merge FETCH_HEAD"
   },
   "repository": {
     "type": "git",
