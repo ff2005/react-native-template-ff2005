@@ -30,13 +30,7 @@ Do not forget to update / install cocoa Pods doing **`sudo gem install cocoapods
 
 More details in https://guides.cocoapods.org.
 
-### React Native CLI
-This template uses the new React Native Community CLI. If you have the legacy CLI installed globally, please uninstall first with **`npm uninstall -g react-native-cli`**.
-
-See notes on this bellow.
-
-### This template
-Time for some magic. Let's run.
+### React Native
 
 ```sh
 npx react-native init MyApp --template react-native-template-iso-starter
