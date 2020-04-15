@@ -1,8 +1,8 @@
 # My Project
 
-[![React](https://img.shields.io/badge/react-16.9.0-68D3FC?logo=react)](https://reactjs.org/)
-[![React Native](https://img.shields.io/badge/react--native-0.61.5-68D3FC?logo=react)](https://facebook.github.io/react-native/)
-[![Typescript](https://img.shields.io/badge/typescript-3.7.3-007ACC?logo=typescript)](https://www.typescriptlang.org/)
+[![React](https://img.shields.io/badge/react-16.11.0-68D3FC?logo=react)](https://reactjs.org/)
+[![React Native](https://img.shields.io/badge/react--native-0.62.2-68D3FC?logo=react)](https://facebook.github.io/react-native/)
+[![Typescript](https://img.shields.io/badge/typescript-3.8.3-007ACC?logo=typescript)](https://www.typescriptlang.org/)
 
 > React Native App to ...
 

@@ -2,10 +2,10 @@
 
 [![NPM version](https://img.shields.io/npm/v/react-native-template-iso-starter?logo=npm&color=CB0000)](https://www.npmjs.com/package/react-native-template-iso-starter)
 [![MIT License](https://img.shields.io/npm/l/react-native-template-iso-starter)](https://opensource.org/licenses/MIT)
-[![Node](https://img.shields.io/badge/node-12.14.0-1A5D00?logo=node.js)](https://nodejs.org/)
-[![React](https://img.shields.io/badge/react-16.9.0-68D3FC?logo=react)](https://reactjs.org/)
-[![React Native](https://img.shields.io/badge/react--native-0.61.5-68D3FC?logo=react)](https://facebook.github.io/react-native/)
-[![Typescript](https://img.shields.io/badge/typescript-3.7.3-007ACC?logo=typescript)](https://www.typescriptlang.org/)
+[![Node](https://img.shields.io/badge/node-12.14.1-1A5D00?logo=node.js)](https://nodejs.org/)
+[![React](https://img.shields.io/badge/react-16.11.0-68D3FC?logo=react)](https://reactjs.org/)
+[![React Native](https://img.shields.io/badge/react--native-0.62.2-68D3FC?logo=react)](https://facebook.github.io/react-native/)
+[![Typescript](https://img.shields.io/badge/typescript-3.8.3-007ACC?logo=typescript)](https://www.typescriptlang.org/)
 
 
 > React Native template with some extras.
@@ -20,8 +20,8 @@
 ## Usage
 
 ### Node
-This template was tested with node v12.14.0 and npm v6.13.4.
-If you are using nvm, this template includes a .nvmrc file. Never the less, you can do **`nvm use v12.14.0`** to use / download this version.
+This template was tested with node v12.14.1 and npm v6.13.4.
+If you are using nvm, this template includes a .nvmrc file. Never the less, you can do **`nvm use v12.14.1`** to use / download this version.
 
 More details in https://github.com/nvm-sh/nvm.
 

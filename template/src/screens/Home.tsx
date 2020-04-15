@@ -1,12 +1,12 @@
 import React, { useCallback } from 'react';
 import { View, Text, StyleSheet, Button } from 'react-native';
-import { useNavigation } from '../hooks';
-import { useSelector, useDispatch } from '../store';
-import { increment, decrement } from '../store/counter/actions';
+import { useNavigation } from '@react-navigation/native';
+import { useSelector, useDispatch } from '/store';
+import { increment, decrement } from '/store/counter/actions';
 
 const HomeScreen: React.FC<{}> = () => {
   const navigation = useNavigation();
-  const counter = useSelector(state => state.somethingToCount.counter);
+  const counter = useSelector((state) => state.somethingToCount.counter);
   const dispatch = useDispatch();
   const plusOne = useCallback(() => dispatch(increment(1)), [dispatch]);
   const minusOne = useCallback(() => dispatch(decrement(1)), [dispatch]);
@@ -14,7 +14,6 @@ const HomeScreen: React.FC<{}> = () => {
     navigation,
   ]);
 
-  console.log('HomeScreen', { navigation, counter });
   return (
     <View style={styles.main}>
       <Text>Home Screen</Text>

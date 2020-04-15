@@ -1,19 +1,18 @@
 import React, { useCallback } from 'react';
 import { Button, View, Text, StyleSheet } from 'react-native';
-import { StackActions, NavigationActions } from 'react-navigation';
-import { useNavigation } from '../hooks';
+import { CommonActions, useNavigation } from '@react-navigation/native';
 
 const LoginScreen: React.FC<{}> = () => {
   const navigation = useNavigation();
   const gotoHome = useCallback(() => {
-    const home = StackActions.reset({
-      index: 0,
-      actions: [NavigationActions.navigate({ routeName: 'Home' })],
-    });
-    navigation.dispatch(home);
+    navigation.dispatch(
+      CommonActions.reset({
+        index: 0,
+        routes: [{ name: 'Home' }],
+      }),
+    );
   }, [navigation]);
 
-  console.log('LoginScreen', { navigation });
   return (
     <View style={styles.main}>
       <Text>Login Screen</Text>
